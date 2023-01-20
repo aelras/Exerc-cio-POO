@@ -57,11 +57,11 @@ public static void main(String[] args) {
 		
 		List<PastaDeDente>pastaDeDente = new ArrayList<>();
 		pastaDeDente.add(new PastaDeDente("Colgate", 28.00, "19/03/2023", 10));
-		carne.add(new Carne("Tandy", 15.00, "08/05/2023", 8));
-		carne.add(new Carne("Sensodiny", 29.00, "06/04/2023", 9));
-		carne.add(new Carne("Sorriso", 8.90, "07/06/2023",4));
-		carne.add(new Carne("Close up", 15.90, "09/06/2023",5));
-		System.out.println("--Paste de dentes--");
+		pastaDeDente.add(new PastaDeDente("Tandy", 15.00, "08/05/2023", 8));
+		pastaDeDente.add(new PastaDeDente("Sensodiny", 29.00, "06/04/2023", 9));
+		pastaDeDente.add(new PastaDeDente("Sorriso", 8.90, "07/06/2023",4));
+		pastaDeDente.add(new PastaDeDente("Close up", 15.90, "09/06/2023",5));
+		System.out.println("--Pasta de dentes--");
 		System.out.println("Média : " + cal.media(pastaDeDente));
 		System.out.println("A pasta de dentes mais cara é: " + cal.maisCaro(pastaDeDente));
 		System.out.println("A pasta de dentes mais barata é: " + cal.maisBarato(pastaDeDente));
